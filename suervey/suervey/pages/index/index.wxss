@@ -1,0 +1,26 @@
+.container {
+  background-color: rgb(126, 182, 235);
+  padding: 50rpx;
+}
+
+view {
+  padding-bottom: 30rpx;
+}
+
+input {
+  width: 600rpx;
+  padding-top: 10rpx;
+  border-bottom: 2rpx solid #ccc;
+}
+
+label {
+  display: block;
+  margin: 8rpx;
+}
+
+textarea {
+  width: 600rpx;
+  height: 100rpx;
+  margin-top: 10rpx;
+  border: 2rpx solid #eee;
+}

@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="header">
+    <image src="../../images/headImg.jpg" class="headImg" />
+  </view>
+  <form bindsubmit="loginHandle">
+    <view class="inputs">
+      <input class="username" placeholder="请输入用户名" class="userStyle" name="username"></input>
+      <input class="password" type="password" placeholder="请输入密码" class="pwdStyle" name="password"></input>
+    </view>
+    <view class="buttons">
+      <button type="primary" form-type="submit">登录</button>
+      <button type="default">注册</button>
+    </view>
+  </form>
+
+</view>

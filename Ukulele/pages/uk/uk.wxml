@@ -1,0 +1,18 @@
+<!--pages/uk/uk.wxml-->
+<view class="body">
+  <view class="flex-row">
+    <view bindtap="change" id="c" class="{{btnCss.c}}">C</view>
+    <view bindtap="change" id="d" class="{{btnCss.d}}">D</view>
+    <view bindtap="change" id="e" class="{{btnCss.e}}">E</view>
+    <view bindtap="change" id="f" class="{{btnCss.f}}">F</view>
+    <view bindtap="change" id="g" class="{{btnCss.g}}">G</view>
+    <view bindtap="change" id="a" class="{{btnCss.a}}">A</view>
+    <view bindtap="change" id="b" class="{{btnCss.b}}">B</view>
+  </view>
+  <view>
+    <image mode="scaleToFill" src="{{src}}"></image>
+  </view>
+  <view class="foot">
+    <text>奥里给！！！</text>
+  </view>
+</view>

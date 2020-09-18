@@ -1,0 +1,62 @@
+<view class="main-content">
+	<view class="introduce">
+		<view class="introduce-left">
+			<view class="name">肖佳炜</view>
+			<view class="intention">前端开发工程师</view>
+			<view class="phone">13580404547</view>
+			<view class="email">1565163445@qq.com</view>
+		</view>
+		<view class="introduce-right">
+			<image mode="heightFix" src="cloud://xkctest-3p3ce.786b-xkctest-3p3ce-1301752881/80b1a7dd7707325f1ad251c02f3712c.jpg"></image>
+		</view>
+	</view>
+	<view class="title">教育经历</view>
+	<view class="hr"></view>
+	<view class="edu">
+		<view class="school">学校：广东机电职业技术学院</view>
+		<view class="xueli">学历：大专</view>
+		<view class="zhuanye">专业：软件技术</view>
+		<view></view>
+	</view>
+
+	<view class="title">项目经验</view>
+	<view class="hr"></view>
+	<view class="xm">
+		<view class="xmname">个人博客网站 独立开发</view>
+		<view> 技术栈 ：前端：HTML、CSS、Less、JavaScript、React、React Hooks、Redux、axios、Ant Design；</view>
+		<view>后端：Express、Mongodb</view>
+		<view>主要内容：axios封装、实现跨域请求、cookie验证、高阶组件封装顶部内容底部、react-router-dom实现路由、antd UI框架的使用</view>
+		<view>效果 ：后端管理部分可实现进行博客的增删改，以及前端博客内容展示</view>
+	</view>
+
+	<view class="xm">
+		<view class="xmname">Vue 框架 和 Element-UI 的综合使用案例(独立开发)</view>
+		<view>技术栈 ：Vue、vue-route、element-ui、mockJs、axios、以及clipboard（粘贴板插件）等插件</view>
+		<view>主要内容：组件、数据传递、vue路由的使用、Element-Ui的运用、生命周期</view>
+		<view>效果 ：不同路由下展示不同的组件、运用多种 element-ui 组件进行数据交互</view>
+	</view>
+
+	<view class="xm">
+		<view class="xmname">小程序多人博客（独立开发）</view>
+		<view>技术栈 ： wxml、wxss、JavaScript、云函数、Vant weapp</view>
+		<view>主要内容： 云后端数据集合的设计、采取云函数操作数据库、防抖搜索功能、采用组件、利用动态添加
+			数组元素结合模板实现动态添加DOM元素</view>
+		<view>效果 ： 可实现登录，发表博客，展示博客。收藏点赞以及评论功能</view>
+	</view>
+	<view class="title">技能</view>
+	<view class="hr"></view>
+	<view class="jinen">
+		<view>熟练使用 html5、css3、jquery、javascript 以及 ES6 语法</view>
+		<view>掌握 Vue、React 框架</view>
+		<view>掌握微信小程序开发</view>
+		<view>掌握 NodeJS 运行环境、Express 框架</view>
+		<view>掌握 bootstrap、Element UI、Ant Design UI 框架的使用</view>
+		<view>了解 Webpack 打包工具，掌握 git</view>
+	</view>
+	<view class="title">自我评价</view>
+	<view class="hr"></view>
+	<view>1、勤奋踏实、善于钻研、对前端开发有浓厚兴趣；</view>
+	<view>2、有团队精神、有责任感</view>
+	<view>3、博客地址：https://blog.csdn.net/qq_43262022</view>
+	<view>4、GitHub地址：https://github.com/xjwnb</view>
+</view>

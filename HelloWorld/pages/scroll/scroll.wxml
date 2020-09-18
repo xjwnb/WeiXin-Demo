@@ -1,0 +1,16 @@
+<!--pages/scroll/scroll.wxml-->
+
+<!-- scroll-view -->
+<!-- 水平滚动 -->
+<scroll-view class="containerX" scroll-x>
+  <view wx:key="index" wx:for="{{10}}" class="itemX">{{item}}</view>
+</scroll-view>
+
+<!-- 垂直滚动 -->
+<scroll-view class="containerY" scroll-y>
+  <view wx:key="index" wx:for="{{10}}" class="itemY">{{item}}</view>
+</scroll-view>
+
+<view hidden="true">哈哈哈</view>
+
+<w-tab-control titles="{{titles}}" bind:itemClick="itemClick"></w-tab-control>

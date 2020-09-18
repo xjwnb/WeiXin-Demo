@@ -1,0 +1,62 @@
+<view class="page">
+  <view class="top">
+    <view class="searchInput">
+      <input placeholder="请输入城市名称" placeholder-style="line-height: 29rpx; padding-right: 20rpx" bindinput="bindKeyInput"></input>
+    </view>
+    <view class="searchBtn">
+      <icon type="search" size="25" bindtap="search"></icon>
+    </view>
+  </view>
+  <!--  <view class="weather">
+    <view class="cityinfo" wx:key="index" wx:for="{{weatherInfoNew}}">
+      <text wx:if="{{index !== 0}}" class="day">{{item.day}}</text>
+      <text wx:if="{{index === 0}}" class="cityName">{{cityName}}</text>
+      <text class="num">{{item.low}}℃~{{item.high}}℃</text>
+      <text class="weathertext">{{item.text_day}}~{{item.text_night}}</text>
+      <text class="wind">风向：{{item.wind_direction}}</text>
+    </view>
+  </view>
+ -->
+  <view class="content">
+    <view class="body">
+      <view class="city">
+        <text>{{city}}</text>
+      </view>
+      <view class="today">
+        <text>今日</text>
+      </view>
+    </view>
+    <view class="bottom">
+      <view class="weather">
+        <text>{{weatherInfo.text_day}}</text>
+      </view>
+      <view class="right">
+        <view class="temp">
+          <text>{{weatherInfo.low}}℃~{{weatherInfo.high}}℃</text>
+        </view>
+        <view class="wind">
+          <text>风向：{{weatherInfo.wind_direction}}</text>
+        </view>
+        <view class="windSpeed">最大风速：{{weatherInfo.wind_speed}}km/h</view>
+        <view class="humidity">相对湿度：{{weatherInfo.humidity}}%</view>
+      </view>
+    </view>
+  </view>
+
+
+  <!--   <view class="twoDayInfo">
+    <view classs="tomorrow">
+      <text>明天</text>
+      <text class="toAver">{{toAver}}</text>
+      <text class="toNum">{{tolow}}~{{tohigh}}</text>
+      <text>{{to_text_day}}~{{to_text_night}}</text>
+    </view>
+    <view class="afterTomorrow">
+      <text>后天</text>
+      <text class="aToAver">{{aToAver}}</text>
+      <text class="aToNum">{{aTolow}}~{{aTohigh}}</text>
+      <text>{{aTo_text_day}}~{{aTo_text_night}}</text>
+    </view>
+  </view> -->
+  <view class="foot">数据来源 心知天气API</view>
+</view>

@@ -1,0 +1,33 @@
+<!--index.wxml-->
+
+<view class="container">
+  <text>{{ msg }}</text>
+  <text>姓名：{{ person.name }}</text>
+  <text>{{ person.age }}岁</text>
+  <view class="{{ bg }}"></view>
+
+  <!-- for 循环 -->
+  <view>
+    <view wx:for="{{ todos }}" wx:for-item="it">
+      <checkbox checked="{{ it.completed }}"></checkbox>
+      <text>{{ it.name }}</text>
+    </view>
+  </view>
+
+  <!-- 点击事件 -->
+  <!-- bindtap只能传入事件名字无法传入参数 -->
+  <button bindtap="handle">点击</button>
+
+  <!-- 冒泡事件 -->
+  <!-- catchtap可以阻止冒泡 -->
+  <view bindtap="faHandle" class="fa">
+    <view catchtap="soHandle" class="so"></view>
+  </view>
+
+  <!-- 事件传参 -->
+  <button bindtap="taphandle" data-name="肖佳炜">点击</button>
+
+  <!-- 双向绑定 -->
+  <input value="{{ message }}" bindinput="inputHandle"></input>
+  <text>{{ message }}</text>
+</view>

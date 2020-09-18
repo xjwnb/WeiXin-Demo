@@ -1,0 +1,2 @@
+<!--pages/index/index.wxml-->
+<text ontap="changeHandle" style="color: {{color}}">{{text}}</text>

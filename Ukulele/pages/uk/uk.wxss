@@ -1,0 +1,45 @@
+/* pages/uk/uk.wxss */
+
+.body {
+  margin: 0rpx 10rpx 25rpx, 25rpx;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.active {
+  display: inline-block;
+  padding: 9.6rpx 16rpx;
+  background-image: linear-gradient(rgb(15, 218, 174), rgb(125, 47, 214));
+  border: 2rpx solid rgba(25, 192, 114, 0.2);
+  background-color: rgb(2, 120, 230);
+  border-radius: 9.6rpx;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  width: 100rpx;
+}
+
+.inactive {
+  display: inline-block;
+  padding: 9.6rpx 16rpx;
+  background-image: linear-gradient(rgb(23, 204, 120), rgba(55, 115, 206, 0.363));
+  border: 2rpx solid rgba(0, 0, 0, 0.2);
+  border-radius: 9.6rpx;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  width: 100rpx;
+}
+
+
+
+.foot {
+  text-align: center;
+  font-family: SimSun;
+  font-size: 40rpx;
+  color: blue;
+  background-color: lightgreen;
+}

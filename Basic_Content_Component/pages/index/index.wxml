@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+<!-- icon text progress -->
+
+<!-- success, success_no_circle, info, warn, waiting, cancel, download, search, clear -->
+<!-- icon type 属性规定图片 -->
+<icon type="success_no_circle"></icon>
+
+<!--icon size 属性默认位23 -->
+<icon type="download" size="30"></icon>
+
+<!-- icon color 属性颜色属性 -->
+<icon type="waiting" color="green"></icon>
+
+<!-- text 类似与html中的p标签,但不同与p标签的是text标签可以嵌套 -->
+<text>我的姓名：肖佳炜</text>
+
+<!-- progress -->
+<progress show-info active percent="70"></progress>
+
+<button type="primary" bindtap="handle">你的爱好</button>
+
+<button hover-class="btn-active">hover class</button>
+
+<button bindtap="tsHandle" type="primary">提示框</button>
+
+<button bindtap="showToastHandle" type="primary">showToast</button>
+</view>

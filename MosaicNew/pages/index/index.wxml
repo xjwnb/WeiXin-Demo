@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="title">使用说明：打开图片，拖动手指在需要打马赛克的地方，保存后可点右上角假装分享给好友。</view>
+  <view class="body">
+    <button bindtap="click" type="primary" size="mini">打开</button>
+    <button bindtap="seal" type="primary" size="mini">盖章</button>
+    <button bindtap="flower" type="primary" size="mini">花式</button>
+    <button bindtap="cover" type="primary" size="mini">打马</button>
+    <button size="mini" type="primary" bindtap="clear">清除</button>
+    <button bindtap="save" type="primary" size="mini">保存</button>
+    <button bindtap="upload" type="primary" size="mini">上传</button>
+    <view class="url">{{url}}</view>
+  </view>
+  <canvas style="width: {{windowWidth}}px; height: {{windowHeight}}px;" class="canvas" canvas-id="myCanvas" bindtouchstart="start" bindtouchmove="move" bindtouchend="end" disable-scroll="true">
+  </canvas>
+</view>

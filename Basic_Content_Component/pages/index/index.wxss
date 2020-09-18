@@ -1,0 +1,4 @@
+/**index.wxss**/
+.btn-active {
+  background-color: red;
+}

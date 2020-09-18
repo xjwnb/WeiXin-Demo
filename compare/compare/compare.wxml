@@ -1,0 +1,15 @@
+<!--compare/compare.wxml-->
+<form bindsubmit="formCompare">
+  <view>
+    <text>请输入第一个数字:</text>
+    <input type="number" name="num1"></input>
+  </view>
+  <view>
+    <text>请输入第二个数字:</text>
+    <input type="number" name="num2"></input>
+  </view>
+  <button form-type="submit">比较</button>
+  <view>
+    <text>比较结果：<text style="color: {{colorStyle}}">{{result}}</text></text>
+  </view>
+</form>

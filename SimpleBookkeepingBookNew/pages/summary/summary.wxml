@@ -1,0 +1,17 @@
+
+
+<view class="sum">收入</view>
+<van-cell-group>
+  <block wx:key="index" wx:for="{{intotal}}" wx:for-index="key">
+    <van-cell title="{{key}}月" value="一共收入{{item}}元" />
+  </block>
+
+</van-cell-group>
+
+<view class="sum">支出</view>
+<van-cell-group>
+  <block wx:key="index" wx:for="{{total}}" wx:for-index="key">
+    <van-cell title="{{key}}月" value="一共支出{{item}}元" />
+  </block>
+
+</van-cell-group>

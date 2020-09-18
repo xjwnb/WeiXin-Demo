@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/summary/summary",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "简易记账本 肖佳炜",
+    "navigationBarTextStyle": "black"
+  },
+  "color": "#ffffff",
+  "selectedColor": "#000000",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/Home.png",
+      "selectedIconPath": "images/Home-active.png"
+    },{
+      "pagePath": "pages/summary/summary",
+      "text": "汇总",
+      "iconPath": "images/summary.png",
+      "selectedIconPath": "images/summary-active.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-field": "@vant/weapp/field/index"
+  }
+}

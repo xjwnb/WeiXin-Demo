@@ -1,0 +1,122 @@
+/**index.wxss**/
+page {
+  height: 100%;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #f0f0f0;
+}
+
+.tabs {
+  display: flex;
+  background-color: pink;
+}
+
+.tabs .item {
+  flex: 1;
+  text-align: center;
+  font-size: 12px;
+  background-color: #222;
+  color: #ccc;
+  padding: 0;
+}
+
+.tabs .item.active {
+  color: #fff;
+  border-bottom: 1px solid #e9234d;
+}
+
+.content {
+  flex: 1;
+  background-color: #111214;
+  color: #ccc;
+  overflow: hidden;
+}
+
+.slide image {
+  width: 100%;
+  height: 130px;
+}
+
+.portals {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.portals .item {
+  flex: 1;
+}
+
+.portals .item image {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 10px auto;
+}
+
+.portals .item text {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+}
+
+.list .title {
+  margin: 15px 10px;
+  font-size: 14px;
+}
+
+.list .inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list .inner .item {
+  width: 33.33%;
+}
+
+.list .inner .item image {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+}
+
+.list .inner .item text {
+  font-size: 12px;
+}
+
+.player {
+  display: flex;
+  height: 50px;
+  background-color: #17181A;
+}
+
+.player .poster image {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+
+}
+
+
+.info {
+  flex: 1;
+  color: #888;
+  font-size: 14px;
+  margin: 1px;
+}
+
+.controls image {
+  width: 40px;
+  height: 40px;
+  margin: 5px 2px;
+}
+
+.info .title {
+  display: block;
+  font-size: 16px;
+  color: #ccc;
+}

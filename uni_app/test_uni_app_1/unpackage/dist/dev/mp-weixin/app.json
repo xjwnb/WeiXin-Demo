@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/news/news",
+    "pages/test/test",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "测试"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap46.json"
+}

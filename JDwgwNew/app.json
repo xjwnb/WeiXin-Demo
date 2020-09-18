@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/map",
+    "pages/person/person",
+    "pages/case/case",
+    "pages/template/template",
+    "pages/boss/boss",
+    "pages/school/school"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "广东机电 微官网 肖佳炜",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

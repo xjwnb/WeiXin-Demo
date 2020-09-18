@@ -1,0 +1,5 @@
+.school {
+  font-size: 77rpx;
+  text-align: center;
+  line-height: 100vh;
+}

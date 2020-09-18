@@ -1,0 +1,1 @@
+<view><text>{{"组件"+mes}}</text><button type="primary" data-event-opts="{{[['tap',[['btnClick',['$event']]]]]}}" bindtap="__e">点击</button></view>

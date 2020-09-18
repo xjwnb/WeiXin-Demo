@@ -1,0 +1,46 @@
+.main-content {
+  padding: 30rpx;
+}
+
+.introduce {
+  display: flex;
+  margin-bottom: 30rpx;
+}
+
+.introduce-left {
+  flex: 1;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 50rpx;
+}
+
+.introduce-right {
+  flex: 1;
+}
+
+image {
+  float: right;
+  width: 300rpx;
+  height: 200rpx
+}
+
+.hr {
+  margin-bottom: 30rpx;
+  height: 2rpx;
+  background: #aaa;
+}
+
+.title {
+  margin-top: 30rpx;
+}
+
+.xmname {
+  font-size: 35rpx;
+  font-weight: 700;
+}
+
+.xm {
+  margin-bottom: 30rpx;
+}

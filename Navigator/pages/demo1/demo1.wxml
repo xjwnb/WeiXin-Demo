@@ -1,0 +1,9 @@
+<navigator url="../demo2/demo2">跳转</navigator>
+
+<navigator url="../demo2/demo2?name=肖佳炜&age=18">你的姓名</navigator>
+
+<navigator hover-class="my-hover">点击</navigator>
+
+<navigator hover-class="none"></navigator>
+
+<button type="primary" bindtap="thandle">点击跳转</button>

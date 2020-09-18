@@ -1,0 +1,36 @@
+<view class="page">
+  <view class="top">
+    <view class="input">
+      <input placeholder="输入城市名进行搜索" bindinput="bindKeyInput"></input>
+    </view>
+    <view class="icon">
+      <icon type="search" size="25" bindtap="search"></icon>
+    </view>
+  </view>
+  <view class="body">
+    <view class="city">
+      <text>{{city}}</text>
+    </view>
+    <view class="today">
+      <text>今日</text>
+    </view>
+    <view>
+      <image src="{{pic}}" mode="aspectFit" style="width: 400rpx; height: 400rpx"></image>
+    </view>
+  </view>
+  <view class="bottom">
+    <view class="weather">
+      <text>{{weather}}</text>
+    </view>
+    <view class="right">
+      <view class="wind">
+        <text>{{wind}}</text>
+      </view>
+      <view class="temp">
+        <text>{{temp}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="empty"></view>
+  <view class="foot">数据来源 百度地图API</view>
+</view>

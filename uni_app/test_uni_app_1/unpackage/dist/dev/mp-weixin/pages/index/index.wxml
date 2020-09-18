@@ -1,0 +1,1 @@
+<view class="content"><test vue-id="1" mes="{{mes}}" data-event-opts="{{[['^mesEvent',[['mesEvent']]]]}}" bind:mesEvent="__e" bind:__l="__l"></test></view>
